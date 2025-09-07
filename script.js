@@ -4,7 +4,7 @@ function main() {
 
   if (acceptButtons.length > 0) {
     acceptButtons.forEach((e) => {
-      if (e.innerText === "Join") {
+      if (e.innerText === "Join" || e.innerText == "Accept") {
         invitations.push(e);
       }
     });
